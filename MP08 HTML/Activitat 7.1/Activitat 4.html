@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Buscar cámaras de fotos</title>
+  </head>
+  <body>
+    <h1>Buscar cámaras de fotos</h1>
+    <form>
+      <label for="marca">Marca:</label>
+      <input type="text" id="marca" name="marca"><br><br>
+
+      <label for="modelo">Modelo:</label>
+      <input type="text" id="modelo" name="modelo"><br><br>
+
+      <label for="resolucion">Resolución:</label>
+      <select id="resolucion" name="resolucion">
+        <option value="">- Selecciona -</option>
+        <option value="1">5 MP</option>
+        <option value="2">10 MP</option>
+        <option value="3">20 MP</option>
+        <option value="4">30 MP</option>
+        <option value="5">50 MP</option>
+      </select><br><br>
+
+      <label for="precio">Precio máximo:</label>
+      <input type="number" name="precio" id="precio" min="$100" max="$2000" required><br><br>
+
+      <input type="submit" value="Buscar">
+    </form>
+  </body>
+</html>
