@@ -13,7 +13,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
+          branch: main
           folder: . # The folder the action should deploy.
           config: baseUrl=/
 
